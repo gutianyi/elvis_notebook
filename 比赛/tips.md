@@ -1,3 +1,17 @@
+- 特征工程具体流程：
+  1. 对时间做处理  年月日
+  2. 拿到特征列表
+  3. 缺省值做填充
+  4. 对类别型变量 one- hot encoding 
+  5. 对连续值变量做 scaling
+  6. 训练和分析
+
+
+
+
+
+https://zhuanlan.zhihu.com/p/39729525
+
 * 查看数据源 异常值
 
   1. zero值（describe()从min max中查询）
