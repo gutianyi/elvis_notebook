@@ -44,3 +44,14 @@ class Solution:
 
 #### [169. 多数元素](https://leetcode-cn.com/problems/majority-element/)
 
+```python
+class Solution:
+    def majorityElement(self, nums: List[int]) -> int:
+        d = {}
+        for num in nums:
+            d[num] = d.get(num,0) + 1
+        return max(d.items(),key = lambda item:item[1])[0]
+```
+
+
+
